@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodiversity Solutions</title>
+    <style>
+        /* Reset */
+        body, h1, h2, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f3f5f6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Container */
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background-color: #2ecc71;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-menu {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-menu li {
+            margin-right: 20px;
+        }
+
+        .nav-menu li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .nav-menu li a:hover {
+            text-decoration: underline;
+        }
+
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        /* Main Sections */
+        .section {
+            padding: 50px 0;
+        }
+
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #2ecc71;
+        }
+
+        /* Video */
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-top: 56.25%; /* 16:9 Aspect Ratio */
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #2ecc71;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Responsive */
+        @media screen and (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+
+            header {
+                padding: 20px;
+            }
+
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            .nav-menu {
+                display: none;
+                flex-direction: column;
+            }
+
+            .nav-toggle {
+                display: block;
+            }
+
+            .nav-toggle:focus,
+            .nav-toggle:hover {
+                text-decoration: underline;
+            }
+
+            .nav-menu.show {
+                display: flex;
+            }
+
+            .nav-menu li {
+                margin: 10px 0;
+            }
+
+            .section h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Biodiversity Solutions</h1>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#issues">Issues</a></li>
+                    <li><a href="#solutions">Solutions</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="nav-toggle">Menu</button>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Biodiversity</h2>
+            <p>Biodiversity, or biological diversity, encompasses the rich tapestry of life on Earth, spanning an immense array of species, ecosystems, and genetic diversity. It is the foundation of healthy ecosystems and provides a multitude of essential services that sustain human well-being and the functioning of the planet. From regulating the climate and purifying water to providing food, medicine, and cultural inspiration, biodiversity touches nearly every aspect of human life. However, this invaluable resource is under unprecedented threat due to human activities such as habitat destruction, pollution, and climate change. Conservation efforts are imperative to safeguard biodiversity and ensure the resilience of ecosystems for future generations, highlighting the critical need for sustainable practices and global cooperation in preserving this irreplaceable treasure of nature.</p>
+<br>
+<div class="video-container">
+                <video controls>
+                    <source src="/Users/apple/Desktop/Global Scholars/about.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <section id="issues" class="section">
+        <div class="container">
+            <h2>Biodiversity Issues</h2>
+            <p>The issues confronting biodiversity are multifaceted and interconnected, driven primarily by human activities that disrupt natural ecosystems and undermine the intricate balance of life on Earth. Habitat loss and fragmentation, stemming from urbanisation, agriculture, and deforestation, pose grave threats to species by depriving them of essential habitats. Climate change exacerbates these challenges, altering temperature patterns and weather extremes, and causing shifts in species distribution. Pollution from various sources further degrades habitats and harms wildlife, while invasive species disrupt ecosystems by outcompeting native species and spreading diseases. Overexploitation of wildlife and natural resources, combined with insufficient conservation efforts and weak enforcement of environmental regulations, exacerbates the decline of biodiversity. Disease outbreaks, often exacerbated by habitat destruction and climate change, pose additional risks to wildlife populations. Addressing these biodiversity issues requires coordinated action at local, national, and global levels, focusing on conservation efforts, sustainable development practices, habitat protection, and public awareness campaigns to safeguard biodiversity and ensure the health and resilience of ecosystems for future generations.</p>
+        </div>
+    </section>
+
+    <section id="solutions" class="section">
+        <div class="container">
+            <h2>Solutions</h2>
+            <p>Solutions to biodiversity issues require a comprehensive approach that addresses the root causes of biodiversity loss while promoting sustainable practices and conservation efforts. Habitat conservation and restoration play a crucial role in protecting biodiversity, with measures such as creating and expanding protected areas, establishing wildlife corridors, and implementing habitat restoration projects. Sustainable land use practices, including responsible agriculture, forestry, and urban planning, can help mitigate habitat loss and fragmentation. Effective management of invasive species through early detection, eradication, and control measures is essential for minimising their impact on native biodiversity. Sustainable resource management practices, such as sustainable fishing and hunting, can help prevent overexploitation of wildlife and natural resources. Strengthening environmental regulations, enforcing wildlife protection laws, and combating illegal wildlife trade are crucial for reducing threats to biodiversity. Public education and awareness campaigns can foster appreciation for biodiversity and promote conservation actions among communities and individuals. Collaborative efforts involving governments, policymakers, scientists, conservation organisations, and local communities are essential for implementing these solutions and achieving meaningful progress in biodiversity conservation and sustainable development.</p>
+<br>
+            <!-- Video Section -->
+            <div class="video-container">
+                <video controls>
+                    <source src="/Users/apple/Desktop/Global Scholars/solutions.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>For any issues contact, Email: aarit.mehta10@gmail.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Global Scholars - Biodiversity Solutions</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.nav-toggle').forEach(toggle => {
+            toggle.addEventListener('click', () => {
+                document.querySelector('.nav-menu').classList.toggle('show');
+            });
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    window.scrollTo({
+                        top: target.offsetTop - 100,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
